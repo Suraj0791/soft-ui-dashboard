@@ -135,6 +135,22 @@ At present, we officially aim to support the last two versions of the following 
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
+
+## Changes Made
+
+### Added "Download PDF" Button to Dashboard
+
+- **File Modified**: `pages/dashboard.html`
+- **Description**: Added a "Download PDF" button to the top right corner of the dashboard page. This button allows users to download a dummy PDF file.
+- **Code Snippet**:
+  ```html
+  <!-- Add this inside the top right corner section -->
+   <li class="nav-item d-flex align-items-center">
+              <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" class="btn btn-primary mb-0 ms-3" style="font-size: 12px; padding: 4px 8px;" download="dummy.pdf">
+                Download PDF
+              </a>
+            </li>
+
 ## Resources
 - [Live Preview](https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud)
 - [Download Page](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud)
